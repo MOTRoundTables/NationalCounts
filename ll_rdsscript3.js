@@ -21,7 +21,7 @@ black_line = {
 const mapproperties = {
 	initial_lon: 32.05,
 	initial_lat: 34.9,
-	initial_zm: 12 
+	initial_zm: 13 
 };
 
 
@@ -83,13 +83,13 @@ stylvl1 = function(feature) {
 	if ( lvl == 1 ) {
 		//c = 'blue',
 		c = 'red'
-		w = 6
+		w = 5 //6
 	} else if ( lvl == 2 ) { 
 		c = 'green'
-		w = 5
+		w = 4 //5
 	} else {
 		c = '#32CD32'  // 'green'
-		w = 4
+		w = 3 // 4
 	}
 
 	return {
@@ -215,18 +215,18 @@ const lyr4 = {
 	style: blackcircle2
 }  
 
-// Available shapes
+// Available shapes  // https://github.com/rowanwins/Leaflet.SvgShapeMarkers
 // diamond square triangle (= triangle-up) triangle-up triangle-down arrowhead (= arrowhead-up) arrowhead-up arrowhead-down circle star-{number-points} x
 
 var diamond = {
 	pane: 'front',
-    radius: 8,
+    radius: 4,
 	shape: "diamond",
-    fillColor: "black",
+    fillColor: "yellow",
     color: "black",
     weight: 1,
     opacity: 1,
-    fillOpacity: 1,
+    fillOpacity: 0.75,
 	rotation: 0
 	}	
 	
@@ -240,12 +240,12 @@ const lyr5 = {
 
 var nati1 = {  // triangle
 	pane: 'front',
-	fillColor: "red",
-	fillOpacity: 0.9,
-	color: "#cccccc",
+	fillColor: "pink",
+	fillOpacity: 0.8,
+	color: "black", // "#cccccc",
 	shape: "triangle",
 	//opacity: 1,
-    //weight: 1,
+    weight: 0.5,
 	radius: 6
 	}
 	
@@ -259,11 +259,11 @@ const lyr6 = {
 var nati2 = {
 	pane: 'front',
 	fillColor: "blue",
-	fillOpacity: 0.9,
-	color: "#cccccc",
+	fillOpacity: 0.8,
+	color: "black", // "#cccccc",
 	shape: "triangle",
 	//opacity: 1,
-    //weight: 1,
+    weight: 0.5,
 	radius: 6
 	}
 
@@ -337,9 +337,9 @@ var slyr1 = addlyr(map, lyr1, overlayMaps) ;
 var slyr3 = addplyr1(map, lyr3, overlayMaps) ;
 var slyr2 = addlyr(map, lyr2, overlayMaps) ;
 var slyr4 = addplyr(map, lyr4, overlayMaps) ;
-var slyr5 = addplyr(map, lyr5, overlayMaps) ;
-var slyr6 = addplyr(map, lyr6, overlayMaps) ;
-var slyr7 = addplyr(map, lyr7, overlayMaps) ;
+var slyr5 = addplyr1(map, lyr5, overlayMaps) ;
+var slyr6 = addplyr1(map, lyr6, overlayMaps) ;
+var slyr7 = addplyr1(map, lyr7, overlayMaps) ;
 
 
 // close local
