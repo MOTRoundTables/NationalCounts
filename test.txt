@@ -1,0 +1,15 @@
+https://motroundtables.github.io/taz_map/data/JlemYosh_2019.geojson
+https://motroundtables.github.io/NationalCounts/data/RASHIT_EZORIT.geojson
+
+
+https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/MEKOMIT_Node.geoJson
+
+
+https://motroundtables.github.io/NationalCounts/data/RASHIT_EZORIT.geojson
+
+
+
+https://motroundtables.github.io/NationalCounts/SalHasfirot.html
+
+
+Ketaim.html
