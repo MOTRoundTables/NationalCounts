@@ -1,0 +1,682 @@
+{"name":"Detectors_plan|Active","type":"FeatureCollection","property_names":["TECHNOLOGY","ROUT","STATUS","DATE","CAMERA","FROM_JUNCT","TO_JUNCTIO"],
+"features":[
+{"type":"Feature",
+"id":1,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-001","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.923974,32.321583]}}
+,
+{"type":"Feature",
+"id":2,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-002","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.923358,32.321699]}}
+,
+{"type":"Feature",
+"id":3,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-003","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.922348,32.321959]}}
+,
+{"type":"Feature",
+"id":4,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-004","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.921753,32.322056]}}
+,
+{"type":"Feature",
+"id":5,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-005","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.920712,32.322171]}}
+,
+{"type":"Feature",
+"id":6,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-006","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.919766,32.322476]}}
+,
+{"type":"Feature",
+"id":7,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-007","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.919118,32.322402]}}
+,
+{"type":"Feature",
+"id":8,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-008","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.91847,32.322473]}}
+,
+{"type":"Feature",
+"id":9,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-009","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.917365,32.322597]}}
+,
+{"type":"Feature",
+"id":10,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-010","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.916186,32.322774]}}
+,
+{"type":"Feature",
+"id":11,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-011","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.915156,32.322826]}}
+,
+{"type":"Feature",
+"id":12,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-012","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.913891,32.322985]}}
+,
+{"type":"Feature",
+"id":13,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-013","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.912691,32.323073]}}
+,
+{"type":"Feature",
+"id":14,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-014","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.911969,32.32317]}}
+,
+{"type":"Feature",
+"id":15,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-015","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.91132,32.323277]}}
+,
+{"type":"Feature",
+"id":16,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-016","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.910375,32.323365]}}
+,
+{"type":"Feature",
+"id":17,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-017","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.909674,32.323472]}}
+,
+{"type":"Feature",
+"id":18,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-018","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.909047,32.323569]}}
+,
+{"type":"Feature",
+"id":19,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-019","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.907921,32.323675]}}
+,
+{"type":"Feature",
+"id":20,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-020","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.906688,32.323888]}}
+,
+{"type":"Feature",
+"id":21,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-021","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.905955,32.323951]}}
+,
+{"type":"Feature",
+"id":22,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"57","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-57W-022","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.905594,32.32395]}}
+,
+{"type":"Feature",
+"id":23,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-001","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.944389,32.066831]}}
+,
+{"type":"Feature",
+"id":24,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-002","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.945177,32.068879]}}
+,
+{"type":"Feature",
+"id":25,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-003","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.945249,32.069799]}}
+,
+{"type":"Feature",
+"id":26,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-004","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.945575,32.070594]}}
+,
+{"type":"Feature",
+"id":27,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-005","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.946038,32.071577]}}
+,
+{"type":"Feature",
+"id":28,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-006","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.946216,32.072407]}}
+,
+{"type":"Feature",
+"id":29,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-007","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.946564,32.072931]}}
+,
+{"type":"Feature",
+"id":30,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-008","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.947293,32.073555]}}
+,
+{"type":"Feature",
+"id":31,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-009","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.94764,32.074412]}}
+,
+{"type":"Feature",
+"id":32,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-010","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.948157,32.074973]}}
+,
+{"type":"Feature",
+"id":33,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-011","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.948749,32.075677]}}
+,
+{"type":"Feature",
+"id":34,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-012","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949287,32.076346]}}
+,
+{"type":"Feature",
+"id":35,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-013","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949593,32.076842]}}
+,
+{"type":"Feature",
+"id":36,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-014","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949867,32.077303]}}
+,
+{"type":"Feature",
+"id":37,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-015","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950025,32.077592]}}
+,
+{"type":"Feature",
+"id":38,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-016","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.95033,32.078259]}}
+,
+{"type":"Feature",
+"id":39,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-017","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950923,32.078279]}}
+,
+{"type":"Feature",
+"id":40,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-018","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950509,32.07863]}}
+,
+{"type":"Feature",
+"id":41,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-019","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950751,32.079144]}}
+,
+{"type":"Feature",
+"id":42,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-020","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950899,32.079397]}}
+,
+{"type":"Feature",
+"id":43,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-021","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951152,32.079975]}}
+,
+{"type":"Feature",
+"id":44,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-022","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951299,32.080354]}}
+,
+{"type":"Feature",
+"id":45,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-023","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951657,32.080986]}}
+,
+{"type":"Feature",
+"id":46,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-024","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.95176,32.082005]}}
+,
+{"type":"Feature",
+"id":47,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444N-025","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951865,32.082429]}}
+,
+{"type":"Feature",
+"id":48,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-001","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951121,32.083266]}}
+,
+{"type":"Feature",
+"id":49,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-002","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951228,32.082815]}}
+,
+{"type":"Feature",
+"id":50,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-003","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951294,32.082139]}}
+,
+{"type":"Feature",
+"id":51,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-004","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.951148,32.081426]}}
+,
+{"type":"Feature",
+"id":52,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-005","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950767,32.081074]}}
+,
+{"type":"Feature",
+"id":53,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-006","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950462,32.080352]}}
+,
+{"type":"Feature",
+"id":54,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-007","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950346,32.080045]}}
+,
+{"type":"Feature",
+"id":55,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-008","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.950189,32.079468]}}
+,
+{"type":"Feature",
+"id":56,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-009","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949936,32.078917]}}
+,
+{"type":"Feature",
+"id":57,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-010","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949736,32.07852]}}
+,
+{"type":"Feature",
+"id":58,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-011","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949589,32.078123]}}
+,
+{"type":"Feature",
+"id":59,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-012","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949315,32.077554]}}
+,
+{"type":"Feature",
+"id":60,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-013","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.949083,32.077274]}}
+,
+{"type":"Feature",
+"id":61,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-014","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.948672,32.076678]}}
+,
+{"type":"Feature",
+"id":62,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-015","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.948292,32.076172]}}
+,
+{"type":"Feature",
+"id":63,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-016","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.947975,32.075757]}}
+,
+{"type":"Feature",
+"id":64,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-017","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.947447,32.075124]}}
+,
+{"type":"Feature",
+"id":65,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-018","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.947152,32.074718]}}
+,
+{"type":"Feature",
+"id":66,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-019","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.946688,32.07414]}}
+,
+{"type":"Feature",
+"id":67,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-020","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.946318,32.073598]}}
+,
+{"type":"Feature",
+"id":68,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-021","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.94577,32.072749]}}
+,
+{"type":"Feature",
+"id":69,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-022","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.94557,32.07246]}}
+,
+{"type":"Feature",
+"id":70,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-023","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.945106,32.07163]}}
+,
+{"type":"Feature",
+"id":71,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-024","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.944854,32.070781]}}
+,
+{"type":"Feature",
+"id":72,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"444","STATUS":"פעיל","DATE":"01/01/2020","CAMERA":"Counter AID-444S-025","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.944349,32.069734]}}
+,
+{"type":"Feature",
+"id":73,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-001","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.879308,32.070927]}}
+,
+{"type":"Feature",
+"id":74,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-002","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.878396,32.071123]}}
+,
+{"type":"Feature",
+"id":75,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-003","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.877443,32.07122]}}
+,
+{"type":"Feature",
+"id":76,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-004","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.876722,32.07129]}}
+,
+{"type":"Feature",
+"id":77,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-005","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.875917,32.071279]}}
+,
+{"type":"Feature",
+"id":78,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-006","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.87525,32.071368]}}
+,
+{"type":"Feature",
+"id":79,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-007","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.874551,32.071402]}}
+,
+{"type":"Feature",
+"id":80,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-008","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.873777,32.071517]}}
+,
+{"type":"Feature",
+"id":81,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-009","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.872962,32.071497]}}
+,
+{"type":"Feature",
+"id":82,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-010","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.872273,32.071613]}}
+,
+{"type":"Feature",
+"id":83,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-011","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.871511,32.071565]}}
+,
+{"type":"Feature",
+"id":84,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-012","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.870727,32.07159]}}
+,
+{"type":"Feature",
+"id":85,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-013","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.869806,32.071516]}}
+,
+{"type":"Feature",
+"id":86,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-014","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.869085,32.071667]}}
+,
+{"type":"Feature",
+"id":87,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-015","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.868344,32.071584]}}
+,
+{"type":"Feature",
+"id":88,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-016","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.867507,32.071555]}}
+,
+{"type":"Feature",
+"id":89,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-017","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.86701,32.071427]}}
+,
+{"type":"Feature",
+"id":90,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-018","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.866333,32.071173]}}
+,
+{"type":"Feature",
+"id":91,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-019","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.865592,32.071009]}}
+,
+{"type":"Feature",
+"id":92,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-020","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.86482,32.070808]}}
+,
+{"type":"Feature",
+"id":93,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-021","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.864111,32.070608]}}
+,
+{"type":"Feature",
+"id":94,"properties":{"TECHNOLOGY":"מצלמות שות\"צ","ROUT":"471","STATUS":"פעיל","DATE":"01/01/2021","CAMERA":"Counter AID-471W-022","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.863243,32.070506]}}
+,
+{"type":"Feature",
+"id":95,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"241WB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.879804,32.173029]}}
+,
+{"type":"Feature",
+"id":96,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"211WB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.871145,32.172231]}}
+,
+{"type":"Feature",
+"id":97,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"182WB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.86614,32.172416]}}
+,
+{"type":"Feature",
+"id":98,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"152WB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.860688,32.175846]}}
+,
+{"type":"Feature",
+"id":99,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"126WB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.855111,32.178681]}}
+,
+{"type":"Feature",
+"id":100,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"153EB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.854433,32.178336]}}
+,
+{"type":"Feature",
+"id":101,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"181EB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.86016,32.175349]}}
+,
+{"type":"Feature",
+"id":102,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"211EB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.866131,32.171884]}}
+,
+{"type":"Feature",
+"id":103,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"240EB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.871115,32.171807]}}
+,
+{"type":"Feature",
+"id":104,"properties":{"TECHNOLOGY":"גלאי מיקרוגל ר\"ס","ROUT":"531","STATUS":"פעיל","DATE":"01/01/2019","CAMERA":"125EB","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.879851,32.171857]}}
+,
+{"type":"Feature",
+"id":105,"properties":{"TECHNOLOGY":"מצלמה ITC","ROUT":"4","STATUS":"פעיל","DATE":"01/01/2022","CAMERA":null,"FROM_JUNCT":"יער חדרה","TO_JUNCTIO":"יער חדרה"},
+"geometry":{"type":"Point","coordinates":[34.903707,32.409593]}}
+,
+{"type":"Feature",
+"id":106,"properties":{"TECHNOLOGY":"גלאי מיקרוגל Modify ניהול תנועה","ROUT":"412","STATUS":"פעיל","DATE":null,"CAMERA":"412-1","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.827874,32.00509]}}
+,
+{"type":"Feature",
+"id":107,"properties":{"TECHNOLOGY":"גלאי מיקרוגל Modify ניהול תנועה","ROUT":"412","STATUS":"פעיל","DATE":null,"CAMERA":"412-2","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.842831,32.012275]}}
+,
+{"type":"Feature",
+"id":108,"properties":{"TECHNOLOGY":"גלאי מיקרוגל Modify ניהול תנועה","ROUT":"412","STATUS":"פעיל","DATE":null,"CAMERA":"412-3","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.859493,32.019923]}}
+,
+{"type":"Feature",
+"id":109,"properties":{"TECHNOLOGY":"גלאי מיקרוגל Modify ניהול תנועה","ROUT":"412","STATUS":"פעיל","DATE":"23/07/2023","CAMERA":"412-4","FROM_JUNCT":null,"TO_JUNCTIO":null},
+"geometry":{"type":"Point","coordinates":[34.86179,32.02002]}}
+,
+{"type":"Feature",
+"id":110,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-A1-1","FROM_JUNCT":"מחלף קרית ראשונים","TO_JUNCTIO":"מחלף מבוא איילון"},
+"geometry":{"type":"Point","coordinates":[34.765116,31.964982]}}
+,
+{"type":"Feature",
+"id":111,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-A1-2","FROM_JUNCT":"מחלף מבוא איילון","TO_JUNCTIO":"מחלף קריית ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.76483,31.964918]}}
+,
+{"type":"Feature",
+"id":112,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-A1-6","FROM_JUNCT":"מחלף קרית ראשונים","TO_JUNCTIO":"מחלף מבוא איילון"},
+"geometry":{"type":"Point","coordinates":[34.770825,31.961242]}}
+,
+{"type":"Feature",
+"id":113,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-A1-7","FROM_JUNCT":"מחלף מבוא איילון","TO_JUNCTIO":"מחלף קריית ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.77038,31.961312]}}
+,
+{"type":"Feature",
+"id":114,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B10-2","FROM_JUNCT":"מחלף נס ציונה","TO_JUNCTIO":"נצר סירני"},
+"geometry":{"type":"Point","coordinates":[34.788933,31.952194]}}
+,
+{"type":"Feature",
+"id":115,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B10-3","FROM_JUNCT":"ממחלף ראשונים","TO_JUNCTIO":"מחלף נס ציונה"},
+"geometry":{"type":"Point","coordinates":[34.78813,31.951867]}}
+,
+{"type":"Feature",
+"id":116,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B10-4","FROM_JUNCT":"נצר סירני","TO_JUNCTIO":"מחלף נס ציונה"},
+"geometry":{"type":"Point","coordinates":[34.789048,31.952519]}}
+,
+{"type":"Feature",
+"id":117,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B11-1","FROM_JUNCT":"נצר סירני","TO_JUNCTIO":"מחלף נס ציונה"},
+"geometry":{"type":"Point","coordinates":[34.795835,31.950846]}}
+,
+{"type":"Feature",
+"id":118,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B11-2","FROM_JUNCT":"נס ציונה","TO_JUNCTIO":"נצר סירני"},
+"geometry":{"type":"Point","coordinates":[34.79572,31.95053]}}
+,
+{"type":"Feature",
+"id":119,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B3-1","FROM_JUNCT":"מחלף ענבה","TO_JUNCTIO":"מחלף נשרים"},
+"geometry":{"type":"Point","coordinates":[34.772215,31.96029]}}
+,
+{"type":"Feature",
+"id":120,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B3-2","FROM_JUNCT":"מחלף נשרים","TO_JUNCTIO":"מחלף ענבה"},
+"geometry":{"type":"Point","coordinates":[34.772683,31.959733]}}
+,
+{"type":"Feature",
+"id":121,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B4-3","FROM_JUNCT":"מחלף עין קורא","TO_JUNCTIO":"מחלף ראשון דרום"},
+"geometry":{"type":"Point","coordinates":[34.780003,31.955041]}}
+,
+{"type":"Feature",
+"id":122,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B5-2","FROM_JUNCT":"מחלף ראשון דרום","TO_JUNCTIO":"מחלף עין קורא"},
+"geometry":{"type":"Point","coordinates":[34.779919,31.954861]}}
+,
+{"type":"Feature",
+"id":123,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B6-1","FROM_JUNCT":"מחלף עין קורא","TO_JUNCTIO":"מחלף ראשון דרום"},
+"geometry":{"type":"Point","coordinates":[34.7835,31.953718]}}
+,
+{"type":"Feature",
+"id":124,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-B6-2","FROM_JUNCT":"מחלף ראשון דרום","TO_JUNCTIO":"מחלף עין קורא"},
+"geometry":{"type":"Point","coordinates":[34.782918,31.953671]}}
+,
+{"type":"Feature",
+"id":125,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-C4-1","FROM_JUNCT":"מחלף נס ציונה","TO_JUNCTIO":"מחלף ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.809697,31.946976]}}
+,
+{"type":"Feature",
+"id":126,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-C4-2","FROM_JUNCT":"מחלף ראשונים","TO_JUNCTIO":"מחלף נס ציונה"},
+"geometry":{"type":"Point","coordinates":[34.809561,31.946624]}}
+,
+{"type":"Feature",
+"id":127,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-D1-1","FROM_JUNCT":"מחלף ראשונים","TO_JUNCTIO":"נס ציונה"},
+"geometry":{"type":"Point","coordinates":[34.815374,31.939932]}}
+,
+{"type":"Feature",
+"id":128,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-D2-1","FROM_JUNCT":"מחלף נס ציונה","TO_JUNCTIO":"מחלף ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.815634,31.941078]}}
+,
+{"type":"Feature",
+"id":129,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-D4-1","FROM_JUNCT":"מחלף רמלה דרום","TO_JUNCTIO":"נצר סירני"},
+"geometry":{"type":"Point","coordinates":[34.820085,31.931208]}}
+,
+{"type":"Feature",
+"id":130,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-D4-2","FROM_JUNCT":"נצר סירנה","TO_JUNCTIO":"מחלף רמלה דרום"},
+"geometry":{"type":"Point","coordinates":[34.819928,31.930847]}}
+,
+{"type":"Feature",
+"id":131,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-E1-1","FROM_JUNCT":"מחלף רמלה דרום","TO_JUNCTIO":"נצר סירני"},
+"geometry":{"type":"Point","coordinates":[34.83088,31.926497]}}
+,
+{"type":"Feature",
+"id":132,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-E1-2","FROM_JUNCT":"נצר סירנה","TO_JUNCTIO":"מחלף רמלה דרום"},
+"geometry":{"type":"Point","coordinates":[34.831561,31.925516]}}
+,
+{"type":"Feature",
+"id":133,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-E2-3","FROM_JUNCT":"מחלף ראשון דרום","TO_JUNCTIO":"מחלף קרית ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.845877,31.920344]}}
+,
+{"type":"Feature",
+"id":134,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-E2-4","FROM_JUNCT":"מחלף קרית ראשונים","TO_JUNCTIO":"מחלף ראשון דרום"},
+"geometry":{"type":"Point","coordinates":[34.845286,31.919982]}}
+,
+{"type":"Feature",
+"id":135,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-F1-3","FROM_JUNCT":"מחלף ראשון דרום","TO_JUNCTIO":"מחלף קרית ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.855758,31.918839]}}
+,
+{"type":"Feature",
+"id":136,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-F1-4","FROM_JUNCT":"מחלף קרית ראשונים","TO_JUNCTIO":"מחלף ראשון דרום"},
+"geometry":{"type":"Point","coordinates":[34.855696,31.918433]}}
+,
+{"type":"Feature",
+"id":137,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-F4-2","FROM_JUNCT":"מחלף עירן קורא","TO_JUNCTIO":"מחלף ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.869724,31.913421]}}
+,
+{"type":"Feature",
+"id":138,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-F4-4","FROM_JUNCT":"מחלף ראשונים","TO_JUNCTIO":"מחלף עין קורא"},
+"geometry":{"type":"Point","coordinates":[34.870135,31.913656]}}
+,
+{"type":"Feature",
+"id":139,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-G1-1","FROM_JUNCT":"מחלף ראשונים","TO_JUNCTIO":"מחלף עין קורא"},
+"geometry":{"type":"Point","coordinates":[34.883808,31.910093]}}
+,
+{"type":"Feature",
+"id":140,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-G1-2","FROM_JUNCT":"מחלף עירן קורא","TO_JUNCTIO":"מחלף ראשונים"},
+"geometry":{"type":"Point","coordinates":[34.884422,31.909689]}}
+,
+{"type":"Feature",
+"id":141,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-G4-3","FROM_JUNCT":"מחלף נשרים","TO_JUNCTIO":"מחלף רמלה דרום"},
+"geometry":{"type":"Point","coordinates":[34.910769,31.90592]}}
+,
+{"type":"Feature",
+"id":142,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-G4-4","FROM_JUNCT":"מחלף רמלה דרום","TO_JUNCTIO":"מחלף נשרים"},
+"geometry":{"type":"Point","coordinates":[34.910972,31.905334]}}
+,
+{"type":"Feature",
+"id":143,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-H1-3","FROM_JUNCT":"מחלף נשרים","TO_JUNCTIO":"מחלף רמלה דרום"},
+"geometry":{"type":"Point","coordinates":[34.923095,31.902782]}}
+,
+{"type":"Feature",
+"id":144,"properties":{"TECHNOLOGY":"לולאות נתיבי היובל","ROUT":"431","STATUS":"פעיל","DATE":"01/01/2009","CAMERA":"DC-H1-4","FROM_JUNCT":"מחלף רמלה דרום","TO_JUNCTIO":"מחלף נשרים"},
+"geometry":{"type":"Point","coordinates":[34.922387,31.902402]}}
+,
+{"type":"Feature",
+"id":145,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"16/01/2022","CAMERA":null,"FROM_JUNCT":"הטייסים","TO_JUNCTIO":"הטייסים"},
+"geometry":{"type":"Point","coordinates":[34.907935,32.024807]}}
+,
+{"type":"Feature",
+"id":146,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"07/02/2022","CAMERA":null,"FROM_JUNCT":"רינתיה","TO_JUNCTIO":"רינתיה"},
+"geometry":{"type":"Point","coordinates":[34.905416,32.047464]}}
+,
+{"type":"Feature",
+"id":147,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"42","STATUS":"פעיל","DATE":"15/02/2022","CAMERA":null,"FROM_JUNCT":"בית עובד","TO_JUNCTIO":"בית עובד"},
+"geometry":{"type":"Point","coordinates":[34.770529,31.920669]}}
+,
+{"type":"Feature",
+"id":148,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"07/03/2022","CAMERA":null,"FROM_JUNCT":"ביל\"ו","TO_JUNCTIO":"ביל\"ו"},
+"geometry":{"type":"Point","coordinates":[34.819543,31.870903]}}
+,
+{"type":"Feature",
+"id":149,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"09/03/2022","CAMERA":null,"FROM_JUNCT":"בי\"ח קפלן","TO_JUNCTIO":"בי\"ח קפלן"},
+"geometry":{"type":"Point","coordinates":[34.816057,31.868006]}}
+,
+{"type":"Feature",
+"id":150,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"21/03/2022","CAMERA":null,"FROM_JUNCT":"עקרון 2000","TO_JUNCTIO":"עקרון 2000"},
+"geometry":{"type":"Point","coordinates":[39.660933,31.783248]}}
+,
+{"type":"Feature",
+"id":151,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"40","STATUS":"פעיל","DATE":"23/03/2022","CAMERA":null,"FROM_JUNCT":"ברנר","TO_JUNCTIO":"ברנר"},
+"geometry":{"type":"Point","coordinates":[34.81429,31.866044]}}
+,
+{"type":"Feature",
+"id":152,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"4","STATUS":"פעיל","DATE":"16/06/2022","CAMERA":null,"FROM_JUNCT":"פל-ים","TO_JUNCTIO":"פל-ים"},
+"geometry":{"type":"Point","coordinates":[34.919951,32.480472]}}
+,
+{"type":"Feature",
+"id":153,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"651","STATUS":"פעיל","DATE":"07/07/2022","CAMERA":null,"FROM_JUNCT":"אז\"ת צפוני חלמיש","TO_JUNCTIO":"אז\"ת צפוני חלמיש"},
+"geometry":{"type":"Point","coordinates":[34.947997,32.479296]}}
+,
+{"type":"Feature",
+"id":154,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"651","STATUS":"פעיל","DATE":"07/07/2022","CAMERA":null,"FROM_JUNCT":"אז\"ת דרומי השיטה","TO_JUNCTIO":"אז\"ת דרומי השיטה"},
+"geometry":{"type":"Point","coordinates":[34.943169,32.478962]}}
+,
+{"type":"Feature",
+"id":155,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"71","STATUS":"פעיל","DATE":"15/08/2022","CAMERA":null,"FROM_JUNCT":"תל יוסף","TO_JUNCTIO":"תל יוסף"},
+"geometry":{"type":"Point","coordinates":[35.394214,32.551039]}}
+,
+{"type":"Feature",
+"id":156,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"70","STATUS":"פעיל","DATE":"13/02/2023","CAMERA":null,"FROM_JUNCT":"אחיהוד","TO_JUNCTIO":"אחיהוד"},
+"geometry":{"type":"Point","coordinates":[35.166603,32.911958]}}
+,
+{"type":"Feature",
+"id":157,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"70","STATUS":"פעיל","DATE":"27/02/2023","CAMERA":null,"FROM_JUNCT":"יסיף","TO_JUNCTIO":"יסיף"},
+"geometry":{"type":"Point","coordinates":[35.155998,32.912712]}}
+,
+{"type":"Feature",
+"id":158,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"42","STATUS":"פעיל","DATE":"15/01/2023","CAMERA":null,"FROM_JUNCT":"בית חנן","TO_JUNCTIO":"בית חנן"},
+"geometry":{"type":"Point","coordinates":[34.778631,31.936234]}}
+,
+{"type":"Feature",
+"id":159,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"42","STATUS":"פעיל","DATE":"15/01/2023","CAMERA":null,"FROM_JUNCT":"רחובות מערב","TO_JUNCTIO":"רחובות מערב"},
+"geometry":{"type":"Point","coordinates":[34.763641,31.901779]}}
+,
+{"type":"Feature",
+"id":160,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"411","STATUS":"פעיל","DATE":"15/02/2023","CAMERA":null,"FROM_JUNCT":"כפר גבירול","TO_JUNCTIO":"כפר גבירול"},
+"geometry":{"type":"Point","coordinates":[34.777956,31.88767]}}
+,
+{"type":"Feature",
+"id":161,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"4","STATUS":"פעיל","DATE":"09/04/2023","CAMERA":null,"FROM_JUNCT":"אור עקיבא","TO_JUNCTIO":"אור עקיבא"},
+"geometry":{"type":"Point","coordinates":[34.928123,32.500797]}}
+,
+{"type":"Feature",
+"id":162,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"4","STATUS":"פעיל","DATE":"09/04/2023","CAMERA":null,"FROM_JUNCT":"בנימינה","TO_JUNCTIO":"בנימינה"},
+"geometry":{"type":"Point","coordinates":[34.929966,32.517429]}}
+,
+{"type":"Feature",
+"id":163,"properties":{"TECHNOLOGY":"גלאי GoGreen","ROUT":"42","STATUS":"פעיל","DATE":"12/07/2023","CAMERA":null,"FROM_JUNCT":"עיינות","TO_JUNCTIO":"עיינות"},
+"geometry":{"type":"Point","coordinates":[34.771177,31.915513]}}
+,
+{"type":"Feature",
+"id":164,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"57","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"ניתני עוז","TO_JUNCTIO":"ניצני עוז"},
+"geometry":{"type":"Point","coordinates":[34.999461,32.311729]}}
+,
+{"type":"Feature",
+"id":165,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"89","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"צומת כברי","TO_JUNCTIO":"צומת כברי"},
+"geometry":{"type":"Point","coordinates":[35.142007,33.016587]}}
+,
+{"type":"Feature",
+"id":166,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"55","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"אלפי מנשה","TO_JUNCTIO":"אלפי מנשה"},
+"geometry":{"type":"Point","coordinates":[34.981145,32.177036]}}
+,
+{"type":"Feature",
+"id":167,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"4","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"צומת הרא\"ה","TO_JUNCTIO":"צומת הרא\"ה"},
+"geometry":{"type":"Point","coordinates":[34.90308,32.39355]}}
+,
+{"type":"Feature",
+"id":168,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"4","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"יער חדשרה","TO_JUNCTIO":"יער חדשרה"},
+"geometry":{"type":"Point","coordinates":[34.904044,32.41064]}}
+,
+{"type":"Feature",
+"id":169,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"443","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"מבוא מודיעם","TO_JUNCTIO":"מבוא מודיעם"},
+"geometry":{"type":"Point","coordinates":[34.98731,31.937303]}}
+,
+{"type":"Feature",
+"id":170,"properties":{"TECHNOLOGY":"וידאואנליטיקה אגף מערכות מידע","ROUT":"443","STATUS":"פעיל","DATE":null,"CAMERA":null,"FROM_JUNCT":"מתקן אדם","TO_JUNCTIO":"מתקן אדם"},
+"geometry":{"type":"Point","coordinates":[34.963931,31.94802]}}
+]}
