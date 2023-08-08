@@ -238,15 +238,16 @@ const lyr5 = {
 	style: diamond
 }  
 
-var nati1 = {
+var nati1 = {  // triangle
 	pane: 'front',
-    radius: 8,
-    //fillColor: "black",
-    color: "red",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 1
-};
+	fillColor: "red",
+	fillOpacity: 0.9,
+	color: "#cccccc",
+	shape: "triangle",
+	//opacity: 1,
+    //weight: 1,
+	radius: 6
+	}
 	
 const lyr6 = { 
 	name: "גלאים קיימים",
@@ -257,13 +258,14 @@ const lyr6 = {
 
 var nati2 = {
 	pane: 'front',
-    radius: 8,
-    //fillColor: "black",
-    color: "blue",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 1
-};
+	fillColor: "blue",
+	fillOpacity: 0.9,
+	color: "#cccccc",
+	shape: "triangle",
+	//opacity: 1,
+    //weight: 1,
+	radius: 6
+	}
 
 const lyr7 = { 
 	name: "גלאים מתוכננים",
@@ -345,6 +347,9 @@ var o1 = overlayMaps[lyr2.name]
 o1.remove();
 var o1 = overlayMaps[lyr4.name]
 o1.remove();
+var o1 = overlayMaps[lyr7.name]
+o1.remove();
+
 
 map.on('zoomend', function () {
     var zoomLevel = map.getZoom();
