@@ -103,7 +103,7 @@ stylvl1 = function(feature) {
 
 const lyr1 = { 
 	name: "רשת ראשית/אזורית",
-	url: "https://gmarsze.github.io/Maps/data/RASHIT_EZORIT.geoJson",
+	url: "https://motroundtables.github.io/NationalCounts/data/RASHIT_EZORIT.geoJson",
 	style: stylvl1,
 	pane: 'back',
 	popup: function(feature, layer) {
@@ -127,7 +127,7 @@ const lyr1 = {
 // https://leafletjs.com/reference.html#path
 const lyr2 = { 
 	name: "דרכים מקומיות",
-	url: "https://gmarsze.github.io/Maps/data/MEKOMIT.geoJson",
+	url: "https://motroundtables.github.io/NationalCounts/data/MEKOMIT.geoJson",
 	pane: 'back',
 	style: {
 		color: '#8B4513',
@@ -187,7 +187,7 @@ var blacksquare = {
 
 const lyr3 = { 
 	name: "קצה קטע רשת ראשית/אזורית",
-	url: "https://gmarsze.github.io/Maps/data/RASHIT_EZORIT_Node.geoJson",
+	url: "https://motroundtables.github.io/NationalCounts/data/RASHIT_EZORIT_Node.geoJson",
 	//pane: 'front',
 	// style: blackcircle1
 	style: blacksquare
@@ -206,7 +206,7 @@ var blackcircle2 = {
 
 const lyr4 = { 
 	name: "קצה קטע מקומי",
-	url: "https://gmarsze.github.io/Maps/data/MEKOMIT_Node.geoJson",
+	url: "https://motroundtables.github.io/NationalCounts/data/MEKOMIT_Node.geoJson",
 	//pane: 'front',
 	style: blackcircle2
 }  
