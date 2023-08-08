@@ -235,8 +235,15 @@ const lyr5 = {
 	name: "תחנות ספירה למס",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/TACHANOT_MID_POINTS.geoJson",
 	//pane: 'front',
-	style: diamond
+	style: diamond,
+	popup: function(feature, layer) {
+		if (feature.properties) {
+			popupcontent = 'כביש: ' + feature.properties.MisparKvis + '<br>'+'ק"מ: ' + feature.properties.Kilometer ;
+			layer.bindPopup(popupcontent);
+			}  
+	}
 }  
+
 
 var nati1 = {  // triangle
 	pane: 'front',
@@ -250,11 +257,19 @@ var nati1 = {  // triangle
 	}
 	
 const lyr6 = { 
-	name: "גלאים קיימים",
+	name: "גלאים קיימים נתי",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_Active.geoJson",
 	//pane: 'front',
-	style: nati1
+	style: nati1,
+	popup: function(feature, layer) {
+		if (feature.properties) {
+			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
+			layer.bindPopup(popupcontent);
+			}  
+		}
 }  
+
+// ROUT  STATUS  CAMERA
 
 var nati2 = {
 	pane: 'front',
@@ -268,10 +283,16 @@ var nati2 = {
 	}
 
 const lyr7 = { 
-	name: "גלאים מתוכננים",
+	name: "גלאים מתוכננים נתי",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_Planned.geoJson",
 	//pane: 'front',
-	style: nati2
+	style: nati2,
+	popup: function(feature, layer) {
+		if (feature.properties) {
+			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
+			layer.bindPopup(popupcontent);
+			}  
+		}
 }  
 
 
@@ -502,8 +523,8 @@ function addplyr1 (map, lyr, overlaysObj) {
 			return L.shapeMarker(latlng, lyr.style)
 			//return L.circleMarker(latlng, lyr.style);
 			//locationMarker = L.circleMarker(e.latlng, { pane: "locationMarker" });
-			} //,
-		//onEachFeature: lyr.popup
+			},
+		onEachFeature: lyr.popup
 		});
 	geojson1.addTo(map);
 	overlaysObj[lyr.name] = geojson1;

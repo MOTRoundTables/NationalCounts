@@ -22,9 +22,12 @@
 	<!-- <link rel="icon" href="https://mot-roundtbl.org.il/wp-content/uploads/2020/10/favicon-16x16-1.png" sizes="32x32"> -->
 
 	<style>
+		@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+		
 		html, body {
 			height: 100%;
 			margin: 0;
+			font-family: "Alef Hebrew", sans-serif;
 		}
 		#map {
 			position: absolute;
@@ -74,6 +77,18 @@
 			opacity: 1;
 		}
 
+		.title {
+			direction: rtl;
+			font-weight: bold;
+			text-align: center;
+			width: 10%;
+			padding: 5px;
+			background-color: white;
+			position: absolute;
+			z-index: 2000;			
+			opacity: 1;
+		}
+
 		.RoadLabel{
 		  background: white;
 		  border:2;
@@ -94,6 +109,11 @@
 <body>
 
 <!-- <button onclick="test()">test</button> -->
+
+<div class="title" id="title" style="position:absolute; left:50px; top:15px;">
+שולחן עגול איסוף מידע
+שכבות סל הספירות הלאומי
+</div>
 
 
 <div class="dropdown" id="views" style="position:absolute; top:300px;">
