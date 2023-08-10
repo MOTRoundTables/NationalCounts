@@ -263,7 +263,7 @@ const lyr6 = {
 	style: nati1,
 	popup: function(feature, layer) {
 		if (feature.properties) {
-			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
+			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>' + '<br>'+'דרך: ' + feature.properties.ROUT+' הוצב: ' + feature.properties.DATE ;
 			layer.bindPopup(popupcontent);
 			}  
 		}
@@ -289,7 +289,7 @@ const lyr7 = {
 	style: nati2,
 	popup: function(feature, layer) {
 		if (feature.properties) {
-			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
+			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'דרך: ' + feature.properties.ROUT  ;
 			layer.bindPopup(popupcontent);
 			}  
 		}
@@ -298,20 +298,20 @@ const lyr7 = {
 
 var nati3 = {
 	pane: 'front',
+	color: "black", // "#cccccc",
+    weight: 1,
+	opacity: 1,
 	fillColor: "blue",
 	fillOpacity: 0,
-	color: "black", // "#cccccc",
 	shape: "square",
-	opacity: 1,
-    weight: 0.5,
 	radius: 8
 	}
 
 const lyr8 = { 
-	name: "גלאים מתוכננים נתי",
+	name: "גלאים - כמדות קבועות",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Kvuot.geoJson",
 	//pane: 'front',
-	style: nati2,
+	style: nati3,
 	popup: function(feature, layer) {
 		if (feature.properties) {
 			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
@@ -389,6 +389,7 @@ var slyr4 = addplyr(map, lyr4, overlayMaps) ;
 var slyr5 = addplyr1(map, lyr5, overlayMaps) ;
 var slyr6 = addplyr1(map, lyr6, overlayMaps) ;
 var slyr7 = addplyr1(map, lyr7, overlayMaps) ;
+var slyr8 = addplyr1(map, lyr8, overlayMaps) ;
 
 
 // close local
@@ -398,6 +399,8 @@ var o1 = overlayMaps[lyr4.name]
 o1.remove();
 var o1 = overlayMaps[lyr7.name]
 o1.remove();
+//var o1 = overlayMaps[lyr8.name]
+//o1.remove();
 
 
 map.on('zoomend', function () {
