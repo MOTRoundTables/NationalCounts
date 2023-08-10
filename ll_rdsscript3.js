@@ -308,7 +308,7 @@ var nati3 = {
 	}
 
 const lyr8 = { 
-	name: "גלאים - כמדות קבועות",
+	name: "גלאים - עמדות קבועות",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Kvuot.geoJson",
 	//pane: 'front',
 	style: nati3,
