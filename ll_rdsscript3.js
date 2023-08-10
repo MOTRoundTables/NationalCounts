@@ -83,13 +83,13 @@ stylvl1 = function(feature) {
 	if ( lvl == 1 ) {
 		//c = 'blue',
 		c = 'red'
-		w = 5 //6
+		w = 4 // 5 //6
 	} else if ( lvl == 2 ) { 
 		c = 'green'
-		w = 4 //5
+		w = 3 //5
 	} else {
 		c = '#32CD32'  // 'green'
-		w = 3 // 4
+		w = 2.5 // 4
 	}
 
 	return {
@@ -133,7 +133,7 @@ const lyr2 = {
 	pane: 'back',
 	style: {
 		color: '#8B4513',
-		weight: 2.5
+		weight: 2
 		},
 	popup: function(feature, layer) {
 		if (feature.properties) {
