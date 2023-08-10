@@ -296,6 +296,34 @@ const lyr7 = {
 }  
 
 
+var nati3 = {
+	pane: 'front',
+	fillColor: "blue",
+	fillOpacity: 0,
+	color: "black", // "#cccccc",
+	shape: "square",
+	opacity: 1,
+    weight: 0.5,
+	radius: 8
+	}
+
+const lyr8 = { 
+	name: "גלאים מתוכננים נתי",
+	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Kvuot.geoJson",
+	//pane: 'front',
+	style: nati2,
+	popup: function(feature, layer) {
+		if (feature.properties) {
+			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'הוצב: ' + feature.properties.DATE ;
+			layer.bindPopup(popupcontent);
+			}  
+		}
+}  
+
+
+
+
+
 /*
 const lyr1 = { 
 	name: "דרכים תמא",
