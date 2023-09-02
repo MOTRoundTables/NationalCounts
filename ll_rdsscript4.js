@@ -1,9 +1,12 @@
 // sal sfirot map -v1
 
+// Available shapes  // https://github.com/rowanwins/Leaflet.SvgShapeMarkers
+// diamond square triangle triangle-up triangle-down arrowhead arrowhead-up arrowhead-down circle star-{number-points} x
+// triangle=triangle-up  arrowhead=arrowhead-up
+
 // ------------------------------------------------------------------------
 // initialize
-
-// https://drustack.github.io/Leaflet.SyncView/
+// get window coords: https://drustack.github.io/Leaflet.SyncView/
 
 const mapproperties = {
 	initial_lon: 32.05,
@@ -65,6 +68,7 @@ var baseMaps = {
 // -----------------------------------------------
 // define layers & styles
 
+// sal sfirot
 stylvl1 = function(feature) {
 	lvl = feature.properties.LEVEL;
 	if ( lvl == 1 ) {
@@ -172,7 +176,6 @@ var c1 = {
 	  "opacity": 1
 	}
 
-
 var blacksquare = {
 	pane: 'front',
     radius: 3,
@@ -214,9 +217,6 @@ const lyr4 = {
 	style: blackcircle2
 }  
 
-// Available shapes  // https://github.com/rowanwins/Leaflet.SvgShapeMarkers
-// diamond square triangle (= triangle-up) triangle-up triangle-down arrowhead (= arrowhead-up) arrowhead-up arrowhead-down circle star-{number-points} x
-
 var diamond = {
 	pane: 'front',
     radius: 4,
@@ -242,6 +242,46 @@ const lyr5 = {
 	}
 }  
 
+// --------------------------------------------
+// galaim
+
+// diamond square triangle triangle-up triangle-down arrowhead arrowhead-up arrowhead-down circle star-{number-points} x
+nati_detectors = function(feature) {
+	typ = feature.properties.ntyp;
+	if ( typ == 1 ) {  // lulaa
+		shp = "triangle",
+		clr1 = 'red'
+	} else if ( typ == 2 ) {   // microgal
+		shp = "triangle",
+		clr1 = 'blue' 
+	} else if ( typ == 3 ) {   // camera
+		shp = "triangle",
+		clr1 = 'green' 
+	} else {  
+		shp = "square",
+		clr1 = 'green'  // c = 'green'
+	}
+
+	status = feature.properties.STATUS;
+	if ( status == "פעיל" ) {  // exists
+		clr2 = 'yellow'
+	} else if ( status == "בתכנון" ) {   // new
+		clr2 = 'black' 
+	} else {  
+		clr2 = 'green'  		
+	}
+
+	return {
+		pane: 'front',
+		shape: shp,
+		fillColor: clr1,
+		fillOpacity: 0.8,
+		color: clr2, // "black", // "#cccccc",
+		// opacity: 1,
+		weight: 0.5,
+		radius: 6
+	};
+}
 
 var nati1 = {  // triangle
 	pane: 'front',
@@ -258,7 +298,7 @@ const lyr6 = {
 	name: "גלאים קיימים נתי",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Active.geoJson",
 	//pane: 'front',
-	style: nati1,
+	style: nati_detectors, // nati1,
 	popup: function(feature, layer) {
 		if (feature.properties) {
 			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>' + '<br>'+'דרך: ' + feature.properties.ROUT+' הוצב: ' + feature.properties.DATE ;
@@ -275,7 +315,7 @@ var nati2 = {
 	fillOpacity: 0.8,
 	color: "black", // "#cccccc",
 	shape: "triangle",
-	//opacity: 1,
+	// opacity: 1,
     weight: 0.5,
 	radius: 6
 	}
@@ -284,7 +324,7 @@ const lyr7 = {
 	name: "גלאים מתוכננים נתי",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Planned.geoJson",
 	//pane: 'front',
-	style: nati2,
+	style: nati_detectors,
 	popup: function(feature, layer) {
 		if (feature.properties) {
 			popupcontent = 'טכנולוגיה: ' + feature.properties.TECHNOLOGY + '<br>'+'דרך: ' + feature.properties.ROUT  ;
@@ -394,7 +434,7 @@ function addlyr (map, lyr, overlaysObj) {
 	overlaysObj[lyr.name] = geojson1;
 }
 
-function addplyr (map, lyr, overlaysObj) {
+function addplyr (map, lyr, overlaysObj) {        // simple circle
 	let geojson1 = new L.GeoJSON.AJAX(lyr.url, {	
 		// pane: lyr.pane, 
 		// style: lyr.style, 
@@ -408,11 +448,16 @@ function addplyr (map, lyr, overlaysObj) {
 	overlaysObj[lyr.name] = geojson1;
 }
 
-
-function addplyr1 (map, lyr, overlaysObj) {
+function addplyr1 (map, lyr, overlaysObj) {       // shape marker
 	let geojson1 = new L.GeoJSON.AJAX(lyr.url, {	
 		pointToLayer: function (feature, latlng) {
-			return L.shapeMarker(latlng, lyr.style)   // style = shape, roation, color, etc
+			if (typeof lyr.style === 'function') {
+				sty = lyr.style(feature)   // apply thematic map function
+			} else {
+				sty = lyr.style
+			}
+			return L.shapeMarker(latlng, sty)   // style = shape, roation, color, etc
+			//return L.shapeMarker(latlng, lyr.style)   // style = shape, roation, color, etc
 			// return L.circleMarker(latlng, lyr.style);
 			// locationMarker = L.circleMarker(e.latlng, { pane: "locationMarker" });
 			},
@@ -421,42 +466,6 @@ function addplyr1 (map, lyr, overlaysObj) {
 	geojson1.addTo(map);
 	overlaysObj[lyr.name] = geojson1;
 }
-
-function addplyr1_gtype (map, lyr, overlaysObj) {   // galay type
-	let geojson1 = new L.GeoJSON.AJAX(lyr.url, {	
-		pointToLayer: function (feature, latlng) {
-				
-			return L.shapeMarker(latlng, lyr.style)   // style = shape, toations, etc
-			// return L.circleMarker(latlng, lyr.style);
-			// locationMarker = L.circleMarker(e.latlng, { pane: "locationMarker" });
-			},
-		onEachFeature: lyr.popup
-		});
-	geojson1.addTo(map);
-	overlaysObj[lyr.name] = geojson1;
-}
-
-
-/*
-var domainTheme = {};
-domainTheme.radius = [ 0, 3, 7 ];
-domainTheme.fillColor = [ 0, "#FFFF00", "#FF0000" ];
-
-function addlyr (map, lyr, overlaysObj) {
-	var geojson1 = new L.GeoJSON.AJAX(lyr.url, {	
-		pointToLayer: function (feature, latlng) {
-		//x = domainTheme;
-			var thstyle = Object.assign({}, lyr.style);
-			thstyle.radius  = domainTheme.radius[feature.properties.domain]
-			thstyle.fillColor  = domainTheme.fillColor[feature.properties.domain]
-			return L.circleMarker(latlng, thstyle);
-			},
-		onEachFeature: lyr.popup
-		});
-	geojson1.addTo(map);
-	overlaysObj[lyr.name] = geojson1;
-}
-*/
 
 
 /*
@@ -722,4 +731,24 @@ const lyr1 = {
 			}
 		}). addTo(map);
 
+*/
+/*
+var domainTheme = {};
+domainTheme.radius = [ 0, 3, 7 ];
+domainTheme.fillColor = [ 0, "#FFFF00", "#FF0000" ];
+
+function addlyr (map, lyr, overlaysObj) {
+	var geojson1 = new L.GeoJSON.AJAX(lyr.url, {	
+		pointToLayer: function (feature, latlng) {
+		//x = domainTheme;
+			var thstyle = Object.assign({}, lyr.style);
+			thstyle.radius  = domainTheme.radius[feature.properties.domain]
+			thstyle.fillColor  = domainTheme.fillColor[feature.properties.domain]
+			return L.circleMarker(latlng, thstyle);
+			},
+		onEachFeature: lyr.popup
+		});
+	geojson1.addTo(map);
+	overlaysObj[lyr.name] = geojson1;
+}
 */
