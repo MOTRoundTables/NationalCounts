@@ -295,7 +295,7 @@ var nati1 = {  // triangle
 	}
 	
 const lyr6 = { 
-	name: "גלאים קיימים נתי",
+	name: "גלאים קיימים",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Active.geoJson",
 	//pane: 'front',
 	style: nati_detectors, // nati1,
@@ -321,7 +321,7 @@ var nati2 = {
 	}
 
 const lyr7 = { 
-	name: "גלאים מתוכננים נתי",
+	name: "גלאים מתוכננים",
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Planned.geoJson",
 	//pane: 'front',
 	style: nati_detectors,
@@ -345,7 +345,7 @@ var nati3 = {
 	}
 
 const lyr8 = { 
-	name: "גלאים - עמדות קבועות",
+	name: 'עמדות קבועות סל הספירות',
 	url: "https://raw.githubusercontent.com/MOTRoundTables/NationalCounts/main/data/Detectors_plan_Kvuot.geoJson",
 	//pane: 'front',
 	style: nati3,
@@ -402,7 +402,7 @@ o1.remove();
 // Overlay layers are grouped
 var groupedOverlays = {
   "סל הספירות הלאומי": overlayMaps1,
-  "גלאים": overlayMaps2
+  'גלאים נת"י': overlayMaps2
 };
 
 var options = {
