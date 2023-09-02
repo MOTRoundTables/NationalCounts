@@ -6,7 +6,6 @@
 
 // ------------------------------------------------------------------------
 // initialize
-// get window coords: https://drustack.github.io/Leaflet.SyncView/
 
 const mapproperties = {
 	initial_lon: 32.05,
@@ -366,6 +365,14 @@ const lyr8 = {
 
 var map = L.map('map').setView([mapproperties.initial_lon, mapproperties.initial_lat], mapproperties.initial_zm);
 
+/* try to set lables off - did not work
+ var map = L.map('map').on('load', onMapLoad).setView([mapproperties.initial_lon, mapproperties.initial_lat], mapproperties.initial_zm);
+// map.on('load', onMapLoad);	  // need to be before setview
+function onMapLoad() {
+	tooglelbl();
+	alert("hi");
+}	*/
+
 map.createPane('back');
 map.getPane('back').style.zIndex = 500;
 map.createPane('front');
@@ -414,9 +421,8 @@ var options = {
 var layerControl = L.control.groupedLayers(baseMaps, groupedOverlays, options);
 map.addControl(layerControl);
 
+// basic LL layer control:
 // L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-//  lblsoff();
-
 
 // --------------------------------------------------------------
 // add layers
@@ -524,11 +530,8 @@ function addlbl() {
 		//lbl = feature.properties.keta
 		o1.bindTooltip(lbl, {permanent: true, direction: 'center', className: 'RoadLabel'}).openTooltip();
 		});	
-		
+} 
 
-} /
-
-/*
 function showStuff(id, text, btn) {
     document.getElementById(id).style.display = 'block';
     // hide the lorem ipsum text
@@ -573,22 +576,31 @@ font-size: 12px;
 
 // -------------------------------------------------------
 // views:
+// get window coords: https://drustack.github.io/Leaflet.SyncView/
 
-var selectedtheme = 0 ;
-
+//var selectedview = 0 ;
 function changeview(src) {
 	
-	selectedtheme = src.value;	
+	selectedview = src.value;	
 	//alert(src.value);
 
-	if (selectedtheme=="1") {
-		map.setView([32.83430827354381, 35.19882202148438], 11);
-	}
-	else if (selectedtheme=="2") {
+	if (selectedview=="0") {
 		map.setView([mapproperties.initial_lon, mapproperties.initial_lat], mapproperties.initial_zm);
+	}	
+	if (selectedview=="1") {           // north
+		map.setView([32.8343, 35.1988], 11);
 	}
-	else if (selectedtheme=="3") {
+	else if (selectedview=="2") {      // center
+		map.setView([32.0849, 34.9296], 10);
+	}
+	else if (selectedview=="3") {      // south
 		map.setView([31.272687, 34.758303], 11);
+	}
+	else if (selectedview=="4") {      // large
+		map.setView([32.0080, 35.0629], 9);   
+	}
+	else if (selectedview=="5") {      // israel
+		map.setView([31.4224, 35.6616], 8);   
 	}
 	
 }
@@ -609,7 +621,6 @@ map.on('zoomend', function () {
 	  box.style.fontSize = num.toString() + 'px';
 	});	
 });
-
 
 // -------------------------------------------------------
 
